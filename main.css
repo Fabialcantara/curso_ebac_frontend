@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: antiquewhite;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(5, 5, 53);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size:  24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(77, 129, 77, 0.973);
+}
+
+#esportes .articles article a {
+    background-color: rgba(29, 78, 29, 0.973);
+    color: #000
+    ;
+}
+
+#economia {
+    background-color: rgba(128, 128, 128, 0.664);
+}
+
+#economia .articles article a {
+    background-color: rgba(51, 54, 51, 0.973);
+    color: rgb(245, 242, 242)
+    ;
+}
+
+#tecnologia {
+    background-color: rgba(10, 9, 68, 0.877);
+}
+
+#tecnologia .articles article a {
+    background-color: rgba(112, 110, 243, 0.404);
+    color: rgb(245, 242, 242)
+    ;
+}
+
+#educação {
+    background-color: rgba(172, 189, 24, 0.582);
+}
+
+#educação .articles article a {
+    background-color: rgba(126, 124, 49, 0.993);
+    color: rgb(245, 242, 242)
+    ;
+}
